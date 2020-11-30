@@ -34,6 +34,9 @@
             $("#example1").DataTable({
                 "responsive": true,
                 "autoWidth": false,
+                "order": [
+                [0, "desc"]
+            ]
             });
             $('#example2').DataTable({
                 "paging": true,
